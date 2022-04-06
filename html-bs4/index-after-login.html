@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Home After Login</title>
+    <!-- ================= Favicon ================== -->
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="assets/css/style.css" media="all">
+    <link rel="stylesheet" href="assets/css/responsive.css" media="all">
+</head>
+<body>
+
+    <!-- loader -->
+    <div class="preloader">
+        <div class="loader-part text-center">
+            <div class="loader-spinner"></div>
+            <h5>Loading...</h5>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header-wrapper">
+        <div class="container-fluid">
+            <div class="header-part">
+                <div class="logo-part">
+                    <a href="index.html">
+                        <img src="assets/images/logo-white.svg" class="img-fluid main-logo" alt="">
+                    </a>
+                </div>
+                <div class="menu-part mr-auto ml-2">
+                    <a href="javascript:void(0);" class="close-menu d-block d-xl-none">
+                        <i class="fa fa-times"></i>
+                    </a>
+                    <nav class="nav-bar menu-data">
+                        <ul class="d-xl-flex">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="dropdown menu-dropdown">
+                                <a href="javascript:void(0);" class="menu-link-drop" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multi Menu</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                    <li class="dropdown">
+                                        <a class="drop-link" href="javascript:void(0);">Submenu</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                            <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                            <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                            <li class="dropdown">
+                                                <a class="drop-link" href="javascript:void(0);">Subsubmenu</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                                    <li class="dropdown-divider"></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="drop-link" href="javascript:void(0);">Second subsubmenu</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                                    <li class="dropdown-divider"></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-divider"></li>
+                                            <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0);">Market </a></li>
+                            <li class="dropdown menu-dropdown">
+                                <a href="javascript:void(0);" class="menu-link-drop" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment Products</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0);">Predict & Win</a></li>
+                            <li class="dropdown menu-dropdown d-xl-none">
+                                <a href="javascript:void(0);" class="menu-link-drop" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multi Menu</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                    <li class="dropdown">
+                                        <a class="drop-link" href="javascript:void(0);">Submenu</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                            <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                            <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                            <li class="dropdown">
+                                                <a class="drop-link" href="javascript:void(0);">Subsubmenu</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                                    <li class="dropdown-divider"></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="drop-link" href="javascript:void(0);">Second subsubmenu</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                                    <li class="dropdown-divider"></li>
+                                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-divider"></li>
+                                            <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown menu-dropdown d-xl-none">
+                                <a href="javascript:void(0);" class="menu-link-drop" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="currency-select-data d-xl-none"><a href="javascript:void(0);">USD</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="account-right menu-data">
+                    <ul class="d-flex align-items-center right-menudata">
+                        <li class="dropdown menu-dropdown d-none d-xl-block">
+                            <a href="javascript:void(0);" class="menu-link-drop right-link-data" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multi Menu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                <li class="dropdown">
+                                    <a class="drop-link" href="javascript:void(0);">Submenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                        <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                        <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                        <li class="dropdown">
+                                            <a class="drop-link" href="javascript:void(0);">Subsubmenu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                                <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                                <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                                <li class="dropdown-divider"></li>
+                                                <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="drop-link" href="javascript:void(0);">Second subsubmenu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                                <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                                <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                                <li class="dropdown-divider"></li>
+                                                <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown menu-dropdown d-none d-xl-block">
+                            <a href="javascript:void(0);" class="menu-link-drop right-link-data" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="drop-link" href="javascript:void(0);">Action</a></li>
+                                <li><a class="drop-link" href="javascript:void(0);">Another action</a></li>
+                                <li><a class="drop-link" href="javascript:void(0);">Something else here</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li><a class="drop-link" href="javascript:void(0);">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="currency-select-data d-none d-xl-block"><a href="javascript:void(0);" class="right-link-data" data-toggle="modal" data-target="#currencymodal">USD</a></li>
+                        <li>
+                            <div class="dropdown lang-dropdown">
+                                <a href="javascript:void(0);" class="lang-dropdown-toggle dropdown-toggle" data-display="static" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/flags/us.svg" alt="">
+                                    <span>EN</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="javascript:void(0);" class="drop-link lang-links">
+                                            <img src="assets/images/flags/us.svg" alt="">
+                                            <span>English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" class="drop-link lang-links">
+                                            <img src="assets/images/flags/tr.svg" alt="">
+                                            <span>Turkish</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" class="drop-link lang-links">
+                                            <img src="assets/images/flags/ru.svg" alt="">
+                                            <span>Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <div class="signin-btn login-buttons">
+                                <a class="btn btn-primary" href="login.html"><i class="fas fa-sign-in-alt mr-1"></i> <span>Login</span></a>
+                                <a class="btn btn-primary" href="register.html"><i class="fas fa-sign-in-alt mr-1"></i> <span>Register</span></a>
+                            </div>
+                        </li> -->
+                        <li>
+                            <div class="notice-dropdown dropdown">
+                                <button class="noticebtn dropdown-toggle" id="noticeDropdown"  data-display="static" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-bell"></i>
+                                    <span class="badge badge-danger badge-pill">53</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-menuheader d-flex justify-content-between align-items-center">
+                                        <div class="drop-menuleft">
+                                            <h5 class="mb-0">Notifications<span>(2)</span></h5>
+                                        </div>
+                                        <div class="drop-menuright">
+                                            <a href="javascript:void(0);" class="text-muted">Clear all</a>
+                                        </div>
+                                    </div>
+                                    <div class="notifi-content-box">
+                                        <div class="notifi-list-box custom-scrollbar">
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="unread notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="unread notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="notifi-data-box">
+                                                <a href="javascript:void(0);">
+                                                    <div class="notifi-box">
+                                                        <div class="notify-d-box">
+                                                            <div class="notify-d-image">
+                                                                <i class="feather icon-mail"></i>
+                                                            </div>
+                                                            <div class="notify-d-data">
+                                                                <h6>
+                                                                    <span class="notify-title">EugenioITurner134xa@information.com</span>
+                                                                    <span class="notify-d-time">5 sec ago</span>
+                                                                </h6>
+                                                                <p>We’re always looking to partner with great companies.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-footer d-flex align-items-center justify-content-center">
+                                        <a href="javascript:void(0);">View all</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_log dropdown">
+                                <a href="javascript:void(0);" class="user-dropdown-toggle dropdown-toggle" data-toggle="dropdown" data-display="static">
+                                    <!-- <span class="thumb"><i class="fas fa-user"></i></span> -->
+                                    <div class="userprofile-header">
+                                        <div class="userprofile-img">
+                                            <img src="assets/images/default-user.png" alt="">
+                                        </div>
+                                        <div class="userprofile-data">
+                                            <h6>James Anderson</h6>
+                                            <p>JamesAnderson215@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="userprofile-header profile-dropdown-header">
+                                            <div class="userprofile-img">
+                                                <img src="assets/images/default-user.png" alt="">
+                                            </div>
+                                            <div class="userprofile-data">
+                                                <h6>James Anderson</h6>
+                                                <p>JamesAnderson215@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a class="drop-link" href="javascript:void(0);"><i class="ri-home-3-fill"></i><span>Dashboard</span></a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);"><i class="ri-shield-keyhole-fill"></i><span>Security</span></a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);"><i class="ri-profile-fill"></i><span>Identification</span></a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);"><i class="ri-server-fill"></i><span>API Management</span></a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);"><i class="ri-file-history-fill"></i><span>Transaction History</span></a></li>
+                                    <li><a class="drop-link" href="javascript:void(0);"><i class="ri-user-shared-fill"></i><span>Referral</span></a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a class="drop-link logout-link" href="login.html"><i class="ri-logout-circle-r-fill"></i><span>Logout</span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="toggle-btn d-xl-none">
+                    <a href="javascript:void(0);"><i></i><i></i><i></i></a>
+                </div>
+                <div class="menu-overlay-bg"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main-content-sections">
+        <section class="section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-11 col-md-10 col-lg-8">
+                        <div class="section-title text-center">
+                            <h2>EGE Money Statistics</h2>
+                            <p>We have provided traditional P2P market bargains here for you on EGE Money and at the same time you can enjoy using our Spot, Futures and Rapid Exchange market and a lot more!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer-wrapper">
+        <div class="footer-top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-12 col-12">
+                        <div class="footer-about">
+                            <a class="footer-logo" href="index.html"><img src="assets/images/logo-white.svg" alt="" /></a>
+                            <p>
+                                EGE Money (since 2004) is an old and familiar name in electronic and digital currency exchange. It has been an honor for us to serve two distinct generations of Homo Sapiens during these years. Maybe your father
+                                or mother has been our client too!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="bottom-widget">
+                            <h4 class="widget-title">Company</h4>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>About Us</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Blog</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Privacy Policy</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Terms of Use</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Refund</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="bottom-widget">
+                            <h4 class="widget-title">Help &amp; Support</h4>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Contact Us</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Support Center</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Submit a request</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>API Documentation</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="ri-record-circle-fill"></i><span>Referral Program</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="bottom-widget">
+                            <h4 class="widget-title">Buy Crypto</h4>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);"><span>Buy Bitcoin</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><span>Buy Ethereum</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><span>Buy Trom</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><span>Buy Ripple</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><span>Buy Litecoin</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><span>Buy Tether</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="bottom-widget">
+                            <h4 class="widget-title">Iran Company Info</h4>
+                            <ul class="address-data">
+                                <li>
+                                    <a href="javascript:void(0);" class="address-link"><i class="ri-map-pin-2-fill"></i><span>Marzdaran, Sarsabz Jonoubi, Goldis 8, 4th floor, No 24, Tehran, Iran</span></a>
+                                </li>
+                                <li>
+                                    <a class="address-link" href="javascript:void(0);"><i class="ri-phone-fill"></i><span>(+98) 2162836000</span></a>
+                                </li>
+                                <li>
+                                    <a class="address-link" href="javascript:void(0);"><i class="ri-mail-fill"></i><span>support@egemoney.com</span></a>
+                                </li>
+                            </ul>
+                            <div class="footer-other-link"><a href="javascript:void(0);" class="ft-other-link">Get the latest updates and offers.</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-section">
+            <div class="container">
+                <div class="footer-bottom-data">
+                    <div class="copyright-text">
+                        <p><span>© Copyright 2022</span><a class="logo-copyright-link" href="index.html">Ege Money</a><span>All Rights Reserved</span></p>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);" class="ft-social-icon" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="ft-social-icon" target="_blank"><i class="ri-twitter-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="ft-social-icon" target="_blank"><i class="ri-instagram-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="ft-social-icon" target="_blank"><i class="ri-telegram-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="ft-social-icon" target="_blank"><i class="ri-youtube-fill"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--js -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lottie.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/select2.full.min.js"></script>
+    <script src="assets/js/swiper-slider.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/video-js.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
